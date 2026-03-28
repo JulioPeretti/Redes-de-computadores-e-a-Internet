@@ -1,14 +1,16 @@
 # Camada de Aplicação
+modelo: [Camadas de TCP IP](./Camadas%20de%20TCP%20IP.md)
 
 ## Definição
 É a camada mais próxima do usuário final, onde residem os programas de rede e seus protocolos.
 - **Localização:** Roda apenas nos Sistemas Finais (Hosts), não nos roteadores.
-- **Arquiteturas:** Cliente-Servidor e P2P/BitTorrent.
+- **Arquiteturas:** [Cliente-Servidor](./Cliente-Servidor.md) e [P2P e BitTorrent](./P2P%20e%20BitTorrent.md).
 
 ## Principais Protocolos
 
 ### Web
-- [HTTP](./HTTP.md) - O protocolo da Web (Envolve: Cookies, Cache).
+- [HTTP](./HTTP.md) - O protocolo da Web.
+    - Envolve: Cookies, Cache.
 
 ### Infraestrutura
 - [DNS](./DNS.md) - O diretório da internet (Tradução de Nomes).
